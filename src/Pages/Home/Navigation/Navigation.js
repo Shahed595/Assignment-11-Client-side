@@ -9,8 +9,8 @@ import "./Navigation.css";
 const Navigation = () => {
   const { user, LogOut } = useAuth();
   return (
-    <Navbar expand="xl" collapseOnSelect bg="dark" variant="dark" sticky="top">
-      <Container xs={1} sm={2}>
+    <Navbar expand="lg" collapseOnSelect bg="dark" variant="dark" sticky="top">
+      <Container>
         <Navbar.Brand>
           <img src={logo} style={{ width: 50, borderRadius: 100 }} alt="" />
         </Navbar.Brand>
@@ -24,14 +24,6 @@ const Navigation = () => {
           >
             Home
           </Nav.Link>
-          {/* <Nav.Link
-              style={{ color: "white" }}
-              as={HashLink}
-              to="/placeOrder"
-              className="navigationButton"
-            >
-              Place Order
-            </Nav.Link> */}
           (
           <Nav.Link
             style={{ fontSize: 20, color: "white" }}

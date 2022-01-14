@@ -38,8 +38,8 @@ const PlaceOrder = () => {
     //   </div>
     // </div>
     <Row
-      xs={1}
-      md={2}
+      xs={12}
+      md={6}
       className="g-4"
       style={{ margin: "auto", justifyContent: "center" }}
     >
