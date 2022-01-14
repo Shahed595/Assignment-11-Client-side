@@ -28,7 +28,7 @@ const ManageAllOrders = () => {
     }
   };
   return (
-    <div xs={12} sm={6}>
+    <div xs={1} sm={2}>
       <h1 style={{ color: "#0F5BF3" }}>Manage All Orders</h1>
       <h3 style={{ color: "#0BEF99" }}>
         Total Orders Available:{manageOrders.length}

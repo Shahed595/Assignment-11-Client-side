@@ -33,9 +33,9 @@ const MyOrder = () => {
     }
   };
   return (
-    <div xs={12} sm={6}>
+    <div>
       <h1>My Order List</h1>
-      <table style={{ margin: "auto" }}>
+      <table xs={1} sm={2} style={{ margin: "auto" }}>
         <thead>
           <tr
             style={{
