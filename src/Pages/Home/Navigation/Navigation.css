@@ -1,0 +1,12 @@
+.navigationButton {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+.navigationButton:hover,
+.navigationButton:focus {
+  background-color: #07f3ccf3;
+}
